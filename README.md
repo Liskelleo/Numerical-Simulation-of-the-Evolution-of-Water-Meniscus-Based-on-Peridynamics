@@ -28,7 +28,7 @@
 
 - Not consider the evaporation effect.
   
-- **Updated on January 9, 2016**: Particle shifting technology (PST) applied here (optional in the code) is refered to Xu et al. (2009) and is only applicable to the fluid flow without free surface. Accroding to Gao et al. (2020), if the free surface is involved, the improved version of PST by using Fick’s law (Lind et al., 2012) should be adopted. Due to this limitation, the current algorithm has limited effectiveness. If you don't want to apply the PST algorithm, please set the parameter `C_pst` to `0`. It should be borne in mind that, while Fick’s law acts to diffuse particles at the free surface, surface tension acts in an opposite sense, encouraging particle cohesion.
+- **Updated on January 9, 2016**: Particle shifting technology (PST) applied here (optional in `main - pst.m`) is refered to Xu et al. (2009) and is only applicable to the fluid flow without free surface. Accroding to Gao et al. (2020), if the free surface is involved, the improved version of PST by using Fick’s law (Lind et al., 2012) should be adopted. Due to this limitation, the current algorithm has limited effectiveness. If you don't want to apply the PST algorithm, please set the parameter `C_pst` to `0`. It should be borne in mind that, while Fick’s law acts to diffuse particles at the free surface, surface tension acts in an opposite sense, encouraging particle cohesion.
 
   - *References regarding PST*
 
