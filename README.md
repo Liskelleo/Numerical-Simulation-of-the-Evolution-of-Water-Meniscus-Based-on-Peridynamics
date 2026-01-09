@@ -26,6 +26,14 @@
 
 *Issues*
 
-- Not apply an applicable particle shifting technology (PST).
-
 - Not consider the evaporation effect.
+  
+- **Updated on January 9, 2016**: Particle shifting technology (PST) applied here (optional in the code) is refered to Xu et al. (2009) and is only applicable to the fluid flow without free surface. Accroding to Gao et al. (2020), if the free surface is involved, the improved version of PST by using Fick’s law (Lind et al., 2012) should be adopted. While Fick’s law acts to diffuse particles at the free surface, surface tension acts in an opposite sense, encouraging particle cohesion.
+
+  - *References regarding PST*
+
+    - Xu, R., Stansby, P., & Laurence, D. (2009). Accuracy and stability in incompressible SPH (ISPH) based on the projection method and a new approach. _Journal of computational Physics, 228_(18), 6703-6725.
+
+    - Lind, S. J., Xu, R., Stansby, P. K., & Rogers, B. D. (2012). Incompressible smoothed particle hydrodynamics for free-surface flows: A generalised diffusion-based algorithm for stability and validations for impulsive flows and propagating waves. _Journal of Computational Physics, 231_(4), 1499-1523.
+
+    - Gao, Y., & Oterkus, S. (2020). Multi-phase fluid flow simulation by using peridynamic differential operator. _Ocean Engineering, 216_, 108081.
