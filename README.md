@@ -1,5 +1,10 @@
 **Numerical-Simulation-of-the-Evolution-of-Water-Meniscus-Based-on-Peridynamics**
 
+
+*Document*
+
+The `dissertation.pdf` and the accompanying presentation ppt have been uploaded, but the Particle Shifting Technology (PST) algorithm is not included. The recently uploaded `report.pdf` contains the details of the PST algorithm (see Chapter 2.7).
+
 *Configuration*
 
 - MATLAB 2015b (on Windows 10)
@@ -28,7 +33,7 @@
 
 - Not consider the evaporation effect.
   
-- **Updated on January 9, 2026**: Particle shifting technology (PST) applied here (optional in `main - pst.m`) is refered to Xu et al. (2009) and is only applicable to the fluid flow without free surface. Accroding to Gao et al. (2020), if the free surface is involved, the improved version of PST by using Fick’s law (Lind et al., 2012) should be adopted. Due to this limitation, the current algorithm has limited effectiveness. If you don't want to apply the PST algorithm, please set the parameter `C_pst` to `0`. It should be borne in mind that, while Fick’s law acts to diffuse particles at the free surface, surface tension acts in an opposite sense, encouraging particle cohesion.
+- **Updated on January 9, 2026**: PST applied here (optional in `main - pst.m`) is refered to Xu et al. (2009) and is only applicable to the fluid flow without free surface. Accroding to Gao et al. (2020), if the free surface is involved, the improved version of PST by using Fick’s law (Lind et al., 2012) should be adopted. Due to this limitation, the current algorithm has limited effectiveness. If you don't want to apply the PST algorithm, please set the parameter `C_pst` to `0`. It should be borne in mind that, while Fick’s law acts to diffuse particles at the free surface, surface tension acts in an opposite sense, encouraging particle cohesion.
 
   - *References regarding PST*
 
