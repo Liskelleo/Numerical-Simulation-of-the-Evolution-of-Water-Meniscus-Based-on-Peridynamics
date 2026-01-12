@@ -1,7 +1,6 @@
 **Numerical-Simulation-of-the-Evolution-of-Water-Meniscus-Based-on-Peridynamics**
 
-
-*Document*
+*Documents*
 
 The `dissertation.pdf` and the accompanying presentation ppt have been uploaded, but the Particle Shifting Technology (PST) algorithm is not included. The recently uploaded `report.pdf` contains the details of the PST algorithm (see Chapter 2.7).
 
