@@ -1,4 +1,4 @@
-**Numerical-Simulation-of-the-Evolution-of-Water-Meniscus-Based-on-Peridynamics**
+<!--**Numerical-Simulation-of-the-Evolution-of-Water-Meniscus-Based-on-Peridynamics**
 
 *Documents*
 
@@ -41,3 +41,4 @@ The `dissertation.pdf` and the accompanying presentation ppt have been uploaded,
     - Lind, S. J., Xu, R., Stansby, P. K., & Rogers, B. D. (2012). Incompressible smoothed particle hydrodynamics for free-surface flows: A generalised diffusion-based algorithm for stability and validations for impulsive flows and propagating waves. _Journal of Computational Physics, 231_(4), 1499-1523.
 
     - Gao, Y., & Oterkus, S. (2020). Multi-phase fluid flow simulation by using peridynamic differential operator. _Ocean Engineering, 216_, 108081.
+-->
